@@ -19,16 +19,43 @@ header {
 
 #background_img {
     background-color:rgb(109, 49, 49);
-
-    background-image: url(../images/background_t.jpg);
+    text-align: center;
+    
+    background-image: url('../images/background_t.jpg');
     
     background-size:50%;
-    background-blend-mode:multiply;
-     
+    background-blend-mode:multiply;   
+}
+
+.characterslist {
+    list-style-type: none;
+}
+
+.characterslist li {
+    height: 20%;
+    width: 20%;
+    display: inline-block;
+    position: relative;
+
+    text-align: left;
+    
+
 }
 
 
 
+.Slayers {
+    background-image: url('../images/SlayersandDemons.png');
+    background-size:1950px;
+    width: 200px;
+    height: 200px;
+}
+
+
+#Tanjiro {
+    background-position: -150px 0;
+
+}
 
 
 
@@ -44,3 +71,4 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
+
