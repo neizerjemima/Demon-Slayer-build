@@ -45,17 +45,24 @@ header {
 
 
 .Slayers {
-    background-image: url('../images/SlayersandDemons.png');
-    background-size:1950px;
+    background-image: url('../images/SlayersandDemons1.png');
+    background-size:1900px;
     width: 200px;
     height: 200px;
 }
 
 
 #Tanjiro {
-    background-position: -150px 0;
+    background-position: -195px 0;
 
 }
+#Nezuko {
+    background-position: -385px 0 ;
+}
+#Inosuke {
+    background-position: -575px 0 ;
+}
+
 
 
 
