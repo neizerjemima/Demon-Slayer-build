@@ -71,36 +71,23 @@ header {
 }
 
 
-#Tanjiro {
-    background-position: -197px 0;
+#Tanjiro {background-position: -197px 0;}
 
-}
-#Nezuko {
-    background-position: -396px 0 ;
-}
-#Inosuke {
-    background-position: -598px 0 ;
-}
-#Zenitsu {
-    background-position: -797px 0 ;
-}
-#Akaza {
-    background-position: -998px 0;
-}
-#Kokushibo {
-    background-position:-1197px 0 ;
-}
-#Daki {
-    background-position: -1396px 0;
-}
+#Nezuko {background-position: -396px 0 ;}
 
-#Susamaru {
-    background-position: -1596px 0;
-}
+#Inosuke {background-position: -598px 0 ;}
 
-#Muzan {
-    background-position: -1795px 0;
-}
+#Zenitsu {background-position: -797px 0 ;}
+
+#Akaza {background-position: -998px 0;}
+
+#Kokushibo {background-position:-1197px 0 ;}
+
+#Daki {background-position: -1396px 0;}
+
+#Susamaru {background-position: -1596px 0;}
+
+#Muzan {background-position: -1795px 0;}
 
 .Slayers:hover {background-position-y: -311px !important;}
 
@@ -140,3 +127,56 @@ footer {
     text-align: center;
 }
 
+
+/*---LIGHTBOX---*/
+
+.lightbox {
+   position: absolute;
+   top: 0;
+   left: 0;
+
+   background-color: white;
+   background-image: url(../images/Kyojuro_Rengoku_action.png);
+   background-repeat: no-repeat;
+   background-size: 65vh;
+   background-position: 40px;
+
+   width: 100vw;
+   height: 100vh;
+
+   z-index: 5000;
+}
+
+.close {
+    font-size: 2.8em;
+    position: relative;
+    left: 90%;
+    font-weight: 900;
+    color: black;
+    
+}
+
+.close:hover {color: rgb(71, 71, 71); cursor: pointer;}
+
+.lightbox article {
+    color: black;
+    width : 55%;
+    margin-left: 40%;
+    padding-top: 50px;
+    
+}
+
+article h3 {
+    font-size: 3em;
+    padding-bottom: 20px;
+    text-align: left;
+    color: red;
+}
+
+.alignment {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    line-height: 30px;
+    }
+    
