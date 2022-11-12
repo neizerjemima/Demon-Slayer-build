@@ -57,11 +57,10 @@ header {
 .characterslist li h3 {
     position: relative;
     padding: 17px 0px;
-   
     z-index: 500;
 }
 
-
+nav ul li a h3 {color: white;}
 
 .Slayers {
     background-image: url('../images/SlayersDemons.png');
@@ -69,6 +68,7 @@ header {
     width: 200px;
     height: 260px;
 }
+
 
 
 #Tanjiro {background-position: -197px 0;}
