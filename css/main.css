@@ -135,7 +135,7 @@ footer {
    top: 0;
    left: 0;
 
-   background-color: rgba(240, 240, 240, 0.87);
+   background-color: rgba(255, 250, 250, 0.87);
    background-image: url('../images/Kyojuro_Rengoku_action.png');
    background-repeat: no-repeat;
    background-size: 65vh;
@@ -145,6 +145,7 @@ footer {
    height: 100vh;
    
    z-index: 5000;
+
    display: none;
    
 }
@@ -169,7 +170,7 @@ footer {
     
 }
 
-article h3 {
+.lightbox article h3 {
     font-size: 3em;
     padding-bottom: 20px;
     text-align: left;
@@ -182,5 +183,24 @@ article h3 {
     margin: 0;
     line-height: 30px !important;
 }
+
+.lightbox2 { background-image: url('../images/Tanjiro_Kamado_action.png');}
+
+.lightbox3 {background-image: url('../images/Nezuko_action.png');}
+
+.lightbox4 {background-image: url('../images/Inosuke_Hashibira_action.png');}
+
+.lightbox5 {background-image: url('../images/Zenitsu_Agatsuma_action.png');}
+
+.lightbox6 {background-image: url('../images/Akaza_action.jpg');}
+
+.lightbox7 {background-image: url('../images/Kokushibo.jpg');}
+
+.lightbox8 {background-image: url('../images/Daki_action.png');}
+
+.lightbox9 {background-image: url('../images/Susamaru_action.jpg');}
+
+.lightbox10 {background-image: url('../images/Muzan_Kibutsuji.png');}
+
 
 .lightbox:target { display: block; }
